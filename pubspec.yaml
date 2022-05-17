@@ -1,0 +1,102 @@
+name: meal_monkey
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  animated_splash_screen: ^1.2.0
+  animate_do: ^2.1.0
+  pandabar: ^0.1.1
+  flutter_screenutil: ^5.4.0+1
+  flutter_gen: ^4.1.6
+  easy_localization: ^3.0.0
+  pin_code_fields: ^7.4.0
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  flutter_gen_runner:
+
+
+
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/langs/
+    - assets/images/
+    - assets/images/on_boarding_screen/
+    - assets/images/products/
+    - assets/icons/
+    - assets/icons/bottom_nav/
+  fonts:
+    - family: Etihad
+      fonts:
+        - asset: assets/fonts/etihad_altis/etihad_altis.ttf
+    - family: MetroBlack
+      fonts:
+        - asset: assets\fonts\metropolis\black.otf
+    - family: MetroBlackItalic
+      fonts:
+        - asset: assets\fonts\metropolis\blackItalic.otf
+    - family: MetroBoldItalic
+      fonts:
+        - asset: assets\fonts\metropolis\bold_italic.otf
+    - family: MetroBold
+      fonts:
+        - asset: assets\fonts\metropolis\bold.otf
+    - family: MetroExtraBoldItalic
+      fonts:
+        - asset: assets\fonts\metropolis\extra_bold_italic.otf
+    - family: MetroExtraLightItalic
+      fonts:
+        - asset: assets\fonts\metropolis\extra_light_italic.otf
+    - family: MetroExtraLight
+      fonts:
+        - asset: assets\fonts\metropolis\extra_light.otf
+    - family: MetroLightItalic
+      fonts:
+        - asset: assets\fonts\metropolis\light_italic.otf
+    - family: MetroLight
+      fonts:
+        - asset: assets\fonts\metropolis\light.otf
+    - family: MetroMediumItalic
+      fonts:
+        - asset: assets\fonts\metropolis\medium_italic.otf
+    - family: MetroRegularItalic
+      fonts:
+        - asset: assets\fonts\metropolis\regular_italic.otf
+    - family: MetroRegular
+      fonts:
+        - asset: assets\fonts\metropolis\regular.otf
+    - family: MetroSemiBoldItalic
+      fonts:
+        - asset: assets\fonts\metropolis\semi_boldItalic.otf
+    - family: MetroSemiBold
+      fonts:
+        - asset: assets\fonts\metropolis\semiBold.otf
+    - family: MetroThin
+      fonts:
+        - asset: assets\fonts\metropolis\thin.otf
+    - family: MetroThinItalic
+      fonts:
+        - asset: assets\fonts\metropolis\thinItalic.otf
+
